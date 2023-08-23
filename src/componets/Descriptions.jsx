@@ -30,14 +30,14 @@ const Descriptions = ({weather,units}) => {
     },
     {
       id:4,
-      icon:<BiHappy/>,
+      // icon:<BiHappy/>,
       title:"pressure",
       data:weather.pressure,
       unit:"hPa",
     }, 
     {
       id:5,
-      icon:<BiHappy/>,
+      // icon:<BiHappy/>,
       title:"humidity",
       data:weather.humidity,
       unit:"%",

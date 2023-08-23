@@ -10,7 +10,7 @@ function App() {
   const [bg,setBg] = useState(hotbg);
   useEffect(() => {
     const fetchData = async () => {
-      const data = await getDATA(city, units)
+      const data = await getDATA(city, units);
       setweather(data);
 
       //dyanamic
@@ -48,7 +48,7 @@ function App() {
             </div>
             <div className="section section_temperature">
               <div className="icon">
-                <h3>{`$(weather.name),$(weather.country)`}</h3>
+                <h3>{`${weather.name},${weather.country}`}</h3>
                 <img src={weather.iconURL} alt="weather icon" />
                 <h3>{weather.description}</h3>
 
